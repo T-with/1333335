@@ -1,0 +1,15 @@
+Q1:
+I found that Pandas is much easier to use. NumPy requires you to remember the axis
+numbers and array indices, which can be confusing. However, Pandas allows you to
+use actual city and month names as labels, making it easier to understand the
+meaning of each value. The code of Pandas is also more readable because its output
+is labeled with real names instead of just numbers.
+
+Q2:
+The pivot_months_pandas function took approximately 6 ms per run,
+while pivot_months_loops took approximately 166 ms, making the loop
+version about 27 times slower. The difference is because
+pivot_months_loops uses Python-level for loops to iterate over each
+row one by one, which is slow. The Pandas version uses built-in
+methods like groupby and pivot that are implemented in C internally
+and operate on the entire dataset at once, so it is much faster.

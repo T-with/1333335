@@ -1,0 +1,13 @@
+Q1:
+No. My scatter plot was just a bunch of dots with no pattern.
+The temperature in low-density areas can vary widely, and the
+same is true in high-density areas. Therefore, temperature
+does not reflect density, and the two are not related.
+
+Q2：
+Reading from the hard drive is slow, but decompression
+in the memory is fast. The compressed files are much smaller,
+and the data read from the hard drive is less. The time saved
+in reading is more than the time spent on decompression, so it
+is actually faster. Usually, it is the hard drive that is the
+slower component, not the CPU.

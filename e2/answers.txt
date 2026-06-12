@@ -1,0 +1,7 @@
+q1
+The result is a pandas Series full of floats. Each one is what
+the best-fit line thinks the rating should be at that point in time,
+using y = slope*x + intercept. They're all close to 13 and creep upward
+as time goes on (because the slope is positive), going from about 13.18 early
+on to about 13.48 near the end. So these are basically just the points
+along the red fit line, not the real ratings people gave.
